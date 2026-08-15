@@ -22,7 +22,7 @@ def calculate_birth_year(age):
 year_until_adult = 18 - age
 
 def say_hello(name):
-	print("Hello,", name)
+	print("Hello,", name,"! Welcome to my first python program")
 
 say_hello(name)
 
