@@ -1,20 +1,21 @@
-# My first python program
+# My First Python Program
 
-## What is this?
+## What Is This?
 
-# An age counter
-# It calculate user age and tell whether you are under or over age
+A beginner-friendly Python program that asks the user for their name and age, calculates their approximate birth year, and tells them whether they are a minor or an adult.
 
 ## Features
 
-# It dynamically let user type correct information
-# An begniera nd user friendly software
+- Asks the user for their name and age.
+- Checks that the age is valid.
+- Handles invalid input.
+- Calculates the user's approximate birth year.
+- Tells the user whether they are a minor or an adult.
+- Tells minors how many years remain until they become an adult.
 
-## How to run
+## How to Run
 
-User only have to politley answer the follwoing question in program.
+Make sure Python is installed, then run:
 
-## what i learned
-
-In this endevour i learner about input checker and learn how to import library
-and most importantly about git, also it teaches me to never stop. 
+```bash
+python3 main.py

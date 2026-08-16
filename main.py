@@ -1,9 +1,9 @@
 from datetime import datetime
 
-name = input("what is your name?")
+name = input("what is your name? ")
 
 while True:
-	age = input("How old are you?")
+	age = input("How old are you? ")
 	
 	try:
 		age = int(age)
