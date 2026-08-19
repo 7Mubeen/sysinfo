@@ -1,16 +1,51 @@
-student = {
-    'name': 'Mubeen',
-    'age': 19,
-    'country': 'Pakistan',
-    'goal': 'Python Developer'
+students = {
+    'Mubeen': 78,
+    'Hamza': 92,
+    'Ali': 85,
+    'Sara': 96,
+    'Usman': 88
 }
-print(student['name'])
-if 'goal' in student:
-	print('goal', ":", student['goal'])
-if 'Python' in student.values():
-	print("Python found")
-else:
-	print("Python not found")
+count = 0
+marks = 0
+#highest_scorer , score = list(students.items())[0]
+total_student = len(students)
+print(total_student)
+for key, values in students.items():
+	marks =	marks + values
+print("Marks: ",marks)
+avg = marks / total_student
+for key, values in students.items():
+	if values > avg:
+		count = count + 1
+print("Student above average: ", count)
+print("Average score: ",avg)
+#for key, value in students.items():
+#	if value <  score:
+#		score = value
+#		highest_scorer = key
+#print("Highest scorer: ",highest_scorer)
+#print("Score: ",score)
+#student = {
+#    'name': 'Mubeen',
+#    'age': 19,
+#    'country': 'Pakistan',
+#    'goal': 'Python Developer'
+#}
+#if 'goal' in student:
+#	print("Goal is exist")
+#else:
+#	print("Goal does not exist")
+#student['goal'] = 'ML Engineer'
+#student['age'] = 19
+#for key, value in student.items():
+#	print(key, ":", value)
+#print(student['name'])
+#if 'goal' in student:
+#	print('goal', ":", student['goal'])
+#if 'Python' in student.values():
+#	print("Python found")
+#else:
+#	print("Python not found")
 #found =False
 #for value in person.values():
 #	if value == 'Pakistan':
